@@ -1,0 +1,27 @@
+{
+  "name": "kcis_student_temperature",
+  "version": "1.0.0",
+  "description": "An automatic system that submit students' body temperature daily, used to resolve the annoyance of being required to submit body temperature through a long process every morning.",
+  "main": "build/index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireclaws9/KCIS_Student_Temperature.git"
+  },
+  "author": "I-Cheng Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fireclaws9/KCIS_Student_Temperature/issues"
+  },
+  "homepage": "https://github.com/fireclaws9/KCIS_Student_Temperature#readme"
+}

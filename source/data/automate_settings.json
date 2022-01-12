@@ -1,0 +1,10 @@
+{
+    "schedule": {
+        "timezone": 8,
+        "hours": 6,
+        "minutes": 0
+    },
+    "profiles": [
+        {"student_id": "STUDENT_ID_HERE", "student_password": "STUDENT_PASSWORD_HERE", "student_temperature": 36.6}
+    ]
+}
