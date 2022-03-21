@@ -2,7 +2,7 @@
 {
     "session_method": "POST",
     "session_headers": {
-        "cookie": "ASP.NET_SessionId={session_id}; myStudentNumber={student_id}; UICulture=en-US",
+        "cookie": "ASP.NET_SessionId={session_id}; myStudentNumber={student_id}; UICulture=en-US;",
         "accept-language": "en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7"
     },
     "session_body": {
@@ -20,10 +20,19 @@
             "txtBirthday": ""
         },
         "temperature": {
-            "__VIEWSTATE": "/wEPDwUJMjEzNjA5ODc0D2QWAgIDD2QWCAILDw8WAh4EVGV4dGVkZAIPDw8WAh8AZWRkAhUPEGRkFgFmZAIbDw8WAh8AZWRkZAUpr0hUBos3fo+qOId2PYSALI0m",
+            "__VIEWSTATE": "/wEPDwUJOTIxOTA3MjgyD2QWAgIDD2QWAgIPDw8WAh4EVGV4dGVkZGQlSvfwAtRarrH1ES1g+SFQcElyHg==",
             "__VIEWSTATEGENERATOR": "AE7B5023",
             "txtTemp": "{student_temperature}",
+            "rblAlert": "否",
+            "txtAlertDate": "",
+            "txtAlertLocation": "",
+            "txtAlertRelationShip": "",
             "rblImmigration": "否",
+            "txtCountry": "",
+            "txtRelatives": "",
+            "txtStartTime": "",
+            "txtEndTime": "",
+            "ddlPrevent": "自主健康管理",
             "btnSubmit": "Submit"
         },
         "logout": {

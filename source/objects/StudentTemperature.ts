@@ -44,11 +44,11 @@ export class StudentTemperature {
         const login_body = request_body("login", request_placeholders);
         const login_request = await fetch("https://passport.kcis.ntpc.edu.tw/Login.aspx", {
             method: "POST",
+            // disable redirect to retrieve set-cookie header of first redirect
+            redirect: "manual",
             body: (login_body as any),
             headers: login_header
         }).then(async response => {
-            //const $ = cheerio.load(await response.text());
-            //console.log("Username: " + $("#lblStudentName").text());
             return (response.headers as any).raw();
         });
         return login_request["set-cookie"] && login_request["set-cookie"][0] && !login_request["set-cookie"][0].match(/myStudentNumber=;/);
